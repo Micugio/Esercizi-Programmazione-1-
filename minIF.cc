@@ -17,18 +17,18 @@ int main() {
     cin >> c;
 
     if (a<=b) {
-        else (a<=c) {
+        if (a<=c) {
             cout << a << endl;
         }
     }
     else if (b<=a) {
-        else (b<=c) {
+        if (b<=c) {
             cout << b << endl;
         }
     }
-    else if (c<a) {
+    else if (c<=a) {
         cout << "Iciao" << endl;
-        else (c<=b) {
+        if (c<=b) {
         cout << c << endl;
         }
     }
