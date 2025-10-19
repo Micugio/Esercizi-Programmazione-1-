@@ -1,0 +1,41 @@
+NOT (!) = valore opposto di quel valore (si usa una una sola variabile)
+AND (&&) = stesso valore restituisce quel valore 
+OR (||) = true se un valore è true
+XOR = true se sono valori diversi (true o false)
+valore booleano:    true = 1     false = 0
+
+valore booleano: true=1 false=0
+
+(a sempre minore b, A sempre minore a) 
+Assumo che il valore delle Maiuscole precede le minuscole
+E carattere in input è una lettera
+
+Se inizializzo variabile senza assegnarli valore fuori main è una variabile globale con valore = 0.
+Se inizializzo variabile dentro main senza assegnarli valore non so quale valore assume.
+QUINDI assegna sempre valore a variabile inizializzata.
+
+Maiuscole = minore di 91
+minuscole = maggiore di 91
+Assumo che il valore delle minuscole precede le Maiuscole
+
+
+Ordine di precedenza degli operatori (dal più alto al più basso):
+
+Operatori unari e di precedenza più alta: ::, (), ++ (prefisso), sizeof, * (indiretto), & (indirizzo), ~, !.
+Moltiplicativi: * (moltiplicazione), / (divisione), % (modulo).
+Additivi: + (addizione), - (sottrazione).
+Shifts bit a bit: <<, >>.
+Relazionali: <, <=, >, >=.
+Di uguaglianza: ==, !=.
+AND bit a bit: &.
+OR bit a bit: ^.
+OR esclusivo bit a bit: |.
+AND logico: &&.
+OR logico: ||.
+Espressione condizionale: ?:.
+Assegnazione: =, +=, -=, *= ecc.
+
+*pd (puntatore)
+sempre inizializzarlo e dirgli a cosa puntare, un puntatore assume come valore indirizzo di quella variabile (uso pd = &x) però se uso *pd ottengo anche valore a cui punta. 
+
+*pd = 5 (cambia il valode di pd con 5)

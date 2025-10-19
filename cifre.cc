@@ -1,19 +1,32 @@
 #include <iostream>
 using namespace std;
 
-// NOT (!) = valore opposto di quel valore (si usa una una sola variabile)
-// AND (&&) = stesso valore restituisce quel valore 
-// OR (||) = true se un valore è true
-// XOR = true se sono valori diversi (true o false)
-// valore booleano:    true = 1     false = 0
-
-
-// ESERCIZIO 4 (Tutorato 29/09/2025):
-int a, b, fib, flag, i;
-// Esempio serie di Fibonacci: 1 1 2 3 5 8 13
-
 int main() {
+    int n = 0;
+    int flag = 9;
 
+    do {
+        cin >> n;
+    } while (n<0)
+    
+    while (n>=0 && n<=flag) {
+        if (n>=0 && n<=flag) {
+
+        }
+        flag = flag+9;
+    }
+    cifre = 
+
+    cin >> n;
+    int n = -1;
+    int f0 = 0;
+    int f1 = 1;
+
+    int temp = 0;
+
+    do {
+        if (n<0)
+    }
     cout << "Quanti numeri vuoi contare?" << endl;
     cin >> fib;
     
