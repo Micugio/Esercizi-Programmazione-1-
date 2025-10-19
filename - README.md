@@ -1,11 +1,11 @@
 # Programmazione 1
 
 ## Git
-git clone <link> -> clona repository sulla macchina locale
-git add, -> aggiunge tutte le modifiche effettuate nel repository alle modificate
-git commit -m "<messaggio>" -> salva tutte le modifiche sul repository locale
-git push -> invia le modifiche del repository locale online
-git pull -> copia le modifica, del repository da github a local
+git clone <link> -> clona repository sulla macchina locale.
+git add . -> aggiunge tutte le modifiche effettuate nel repository alle modifiche che verrano salvate.
+git commit -m "<messaggio>" -> salva tutte le modifiche sul repository locale.
+git push -> invia le modifiche del repository locale online.
+git pull -> copia le modifica, del repository da github a locale.
 
 ## Valori Buleani
 NOT (!) = valore opposto di quel valore (si usa una una sola variabile)
