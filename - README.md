@@ -49,7 +49,17 @@ OR logico: ||.
 Espressione condizionale: ?:.
 Assegnazione: =, +=, -=, *= ecc.
 
+## Funzioni o Procedure (NOTA: procedura = funzione void)
+1) funzione int
+2) funzione void
+
 ## Puntatori
 *pd (puntatore)
 sempre inizializzarlo e dirgli a cosa puntare, un puntatore assume come valore indirizzo di quella variabile (uso pd = &x) però se uso *pd ottengo anche valore a cui punta. 
 *pd = 5 (cambia il valode di pd con 5)
+
+## Array
+Array e funzioni = gli array vengono passati per riferimento alla funzione (cioè sono dei puntatori), allora è meglio mettere davanta "const" a "int myArray [dim]" (dim è un numero costante); int funzione (const int myArray [dim]);
+Come abilitare protezione per non uscire fuori dall'indice array?
+    Da scrivere nel compilatore:   g++ -fstack-protector-strong nomeEsercizio.cc
+Nota: verificare se è già attivo uscendo apposta fuori dall'indice dell'array (se esce mi da errore "stack smashing detected")
