@@ -3,6 +3,8 @@
 ## Compilatore
 g++ <nomefile.cc> -> compila file (comando da eseguire all'interno della cartella del file).
 ./a.out -> esegue l'ultimo file compilato.
+ls -> mostra percorsi all'intermo del percorso in cui sono.
+cd <nomepercorso> -> apre il percorso scritto.
 cd /mnt/c/esempiP1 -> va alla cartella esempi Programmazione 1 su Windows 11.
 
 ## Git

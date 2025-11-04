@@ -1,25 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    
+int main(){
+	int minuti, ore,secondi;
+    cout << "Inserisci secondi:" << endl;
+	cin >> secondi;
+	ore = secondi / 3600;
+	secondi -= ore*3600;
+	ore = ore%24;
+	minuti = (secondi)/60;
+	secondi -= minuti*60;
+	cout << (char)((ore<10)*'0')<< ore << ':' << (char)((minuti<10)*'0')<< minuti <<':' <<(char)((secondi<10)*'0')<< secondi << endl;
 
-    cout << "Immetti un carattere: ";
-    cin >> lettera;
-    
-    if (lettera>='a' && lettera<='z')  {
-        lettera -= 'a'-'A';
-        cout << "È una lettera minuscola " << endl;
-        cout << "Ecco la lettera Maiuscola... ";
-        
-        cout << lettera << endl;
-    }
-    else {
-        lettera += 'a'-'A';
-        cout << "È una lettera Maiuscola" << endl;
-        cout << "Ecco la lettera minuscola... ";
-        cout << lettera << endl;
-    }
-
-    return 0;
 }
