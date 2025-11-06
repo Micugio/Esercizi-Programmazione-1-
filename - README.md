@@ -14,6 +14,15 @@ git commit -m "<messaggio>" -> salva tutte le modifiche sul repository locale.
 git push -> invia le modifiche del repository locale online.
 git pull -> copia le modifica, del repository da github a locale.
 
+## SEQUENZE DI ESCAPE COMUNI:
+Escape    Character represented
+  \b        Backspace (cancella un carattere a sinistra)
+  \n        Newline (va a capo)
+  \t		Tab
+  \\		Backslash (\)
+  \'		Apostrofo
+  \"		Virgolette
+
 ## Valori Buleani
 NOT (!) = valore opposto di quel valore (si usa una una sola variabile)
 AND (&&) = stesso valore restituisce quel valore 
