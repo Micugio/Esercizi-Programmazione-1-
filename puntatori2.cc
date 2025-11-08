@@ -17,3 +17,22 @@ int main() {
 
     return 0;
 }
+
+// ALTRO MODO IDENTICO, cambia solo formattazione
+/*
+int main() {
+    double n = 5;
+    double *p = &n;
+    double **q = &p;
+
+    cout << n << endl;
+    
+    *p = (*p)*2;
+    cout << *p << endl;
+
+    **q = (**q)/5;
+    cout << **q << endl;
+
+    return 0;
+}
+*/
