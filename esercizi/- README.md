@@ -70,14 +70,24 @@ Assegnazione: =, +=, -=, *= ecc.
 3) Punta all'indirizzo di un'altra variabile assumendo come valore il suo indirizzo, però se uso *pd ottengo anche valore a cui punta.
 4) L'indirizzo a cui punta il puntatore può essere cambiato
 5) ESEMPIO: *pd = 5 (cambia il valode di pd con 5).
+## Altre tipologie di puntatori
+1) Puntatori a void
+2) Puntatori a costante
+3) Costanti puntatori
+4) Costanti puntatore a costante
+5) Puntatori a puntatori
 ## Riferimenti a
 1) INZIALIZZAZIONE: int &y = x
-2) Alias (sinonimi) di altre variabili.
+2) Alias (sinonimo) di una variabile, NON è una copia di quella variabile.
 3) Non ha uno spazio in memoria dedicato.
-3) Dopo esser stato inizializzato e legato PER SEMPRE a quella variabile, non si può "sciogliere" il legame o cambiare variabile.
+4) Dopo esser stato inizializzato e legato PER SEMPRE a quella variabile, non si può "sciogliere" il legame o cambiare variabile.
 ## Significato operatori "&" e "*"
 &x -> ottengo indirizzo di x (variabile)
 *pd -> ottengo valore numerico di pd (puntatore) -> INFATTI: Se scrivessi SOLO pd -> otterei indirizzo di pd (puntatore).
+
+## Funzioni o Procedure (NOTA: procedura = funzione void)
+1) funzione int = FUNZIONE
+2) funzione void = PROCEDURA
 
 ## Array
 Array e funzioni = gli array vengono passati per riferimento alla funzione (cioè sono dei puntatori), allora è meglio mettere davanta "const" a "int myArray [dim]" (dim è un numero costante); int funzione (const int myArray [dim]);
