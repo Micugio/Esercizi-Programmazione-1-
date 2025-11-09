@@ -61,13 +61,23 @@ Espressione condizionale: ?:.
 Assegnazione: =, +=, -=, *= ecc.
 
 ## Funzioni o Procedure (NOTA: procedura = funzione void)
-1) funzione int
-2) funzione void
+1) funzione int = FUNZIONE
+2) funzione void = PROCEDURA
 
-## Puntatori
-*pd (puntatore)
-sempre inizializzarlo e dirgli a cosa puntare, un puntatore assume come valore indirizzo di quella variabile (uso pd = &x) però se uso *pd ottengo anche valore a cui punta. 
-*pd = 5 (cambia il valode di pd con 5)
+## Puntatori (*pd)
+1) INZIALIZZAZIONE: int *pd = &x (NOTA: Sempre inizializzare puntatore e dirgli a cosa puntare).
+2) Nuova variabile (con suo spazio in memoria). 
+3) Punta all'indirizzo di un'altra variabile assumendo come valore il suo indirizzo, però se uso *pd ottengo anche valore a cui punta.
+4) L'indirizzo a cui punta il puntatore può essere cambiato
+5) ESEMPIO: *pd = 5 (cambia il valode di pd con 5).
+## Riferimenti a
+1) INZIALIZZAZIONE: int &y = x
+2) Alias (sinonimi) di altre variabili.
+3) Non ha uno spazio in memoria dedicato.
+3) Dopo esser stato inizializzato e legato PER SEMPRE a quella variabile, non si può "sciogliere" il legame o cambiare variabile.
+## Significato operatori "&" e "*"
+&x -> ottengo indirizzo di x (variabile)
+*pd -> ottengo valore numerico di pd (puntatore) -> INFATTI: Se scrivessi SOLO pd -> otterei indirizzo di pd (puntatore).
 
 ## Array
 Array e funzioni = gli array vengono passati per riferimento alla funzione (cioè sono dei puntatori), allora è meglio mettere davanta "const" a "int myArray [dim]" (dim è un numero costante); int funzione (const int myArray [dim]);

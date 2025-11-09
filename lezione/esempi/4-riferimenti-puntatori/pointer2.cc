@@ -12,6 +12,14 @@ int main() {
   i++;
   j--;
 
+  cout << "i = " << i << endl;
+  cout << "j = " << j << endl;
+  cout << "*p = " << *p << endl;
+  cout << "*q = " << *q << endl;
+  cout << "&i = " << long(&i) << endl;
+  cout << " p = " << long(p) << endl;
+  cout << " q = " << long(q) << endl;
+  
   q = p;
   (*p)++;
   (*q)++;
