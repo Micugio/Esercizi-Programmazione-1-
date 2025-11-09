@@ -4,7 +4,7 @@ using namespace std;
 //variabili globali (per debugging)
 int n1,n2;
 
-int mcd(int &  a,int & b)
+int mcd(int &a,int &b)
 {
   int resto;
   while(b!=0) {
