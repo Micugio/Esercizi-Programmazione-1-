@@ -9,7 +9,7 @@ void inizializza (int array[], int dim) {
 }
 
 void stampa (const int array[], int dim) {
-    for (int i = 0; i < dim; i++) {
+    for (int i=0; i<dim; i++) {
         cout << array[i] << " ";
     }
     cout << endl;
