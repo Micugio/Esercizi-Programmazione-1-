@@ -1,11 +1,9 @@
 using namespace std;
 #include <iostream>
 
-// GLOBALI PER ESSERE TRACCIATE DAL DEBUGGER
-  int a, b;
+int a, b; // GLOBALI PER ESSERE TRACCIATE DAL DEBUGGER
 
-
-void scambia(int &,int &);
+void scambia(int &, int &);
 
 int main()
 {
