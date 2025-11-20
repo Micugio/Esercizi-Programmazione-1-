@@ -28,9 +28,8 @@ NOT (!) = valore opposto di quel valore (si usa una una sola variabile)
 AND (&&) = stesso valore restituisce quel valore 
 OR (||) = true se un valore è true
 XOR = true se sono valori diversi (true o false)
-
-valore booleano:    true = 1     false = 0
-valore booleano: true=1 false=0
+  valore booleano:    true = 1     false = 0
+  valore booleano: true=1 false=0
 
 ## Maiuscole e minuscole
 (a sempre minore b, A sempre minore a)
@@ -44,6 +43,20 @@ Assumo che il valore delle minuscole precede le Maiuscole
 Se inizializzo variabile senza assegnarli valore fuori main è una variabile globale con valore = 0.
 Se inizializzo variabile dentro main senza assegnarli valore non so quale valore assume.
 QUINDI assegna sempre valore a variabile inizializzata.
+
+## Espressione condizionale ( condizione ? valore_se_vero : valore_se_falso )
+ESEMPIO SEMPLICE ( i==5 ? n=1  : n=0 ):
+if (i==5) {
+  n=1;
+} else {
+  n=0;
+}
+ESEMPIO COMPLESSO ( found ? location-1 : -1 ):
+if (found) {
+  return location - 1; // Restituisce questo se 'found' è vero
+} else {
+  return -1;           // Restituisce questo se 'found' è falso
+}
 
 ## Ordine operatori (dal più alto al più basso)
 Operatori unari e di precedenza più alta: ::, (), ++ (prefisso), sizeof, * (indiretto), & (indirizzo), ~, !.
