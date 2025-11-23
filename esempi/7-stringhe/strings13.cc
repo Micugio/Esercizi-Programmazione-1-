@@ -12,7 +12,8 @@ int main()
   cout << "strlen(\"" << s << "\") = " << strlen(s) << endl;
   cout << "strlen(\"\") = " << strlen("") << endl;
   char buffer[80];
-  cout << "Enter string: ";  cin >> buffer;
+  cout << "Enter string: ";
+  cin >> buffer;
   cout << "strlen(\"" << buffer << "\") = " << strlen(buffer) << endl;
   return 0;
 }

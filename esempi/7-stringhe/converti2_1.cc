@@ -30,8 +30,8 @@ int main (int argc, char * argv[])
   
   myout.open(argv[2],ios::out);
   
-  // vedi "cin loop" in LOOPS
-  while (myin >> value) {
+  // NOTA: (myin >> value) == (cin >> value)  ->  vedi strings3.cc
+  while (myin >> value) { // Legge caratteri dello stream myin (a cui è associato un file), gli memorizza e gli assegna a value. Fa questo procedimento una parola  
     liravalue = euro*value;
     myout << value << " " << fixed << setw(8) << setprecision(0) 
           << liravalue << endl;
